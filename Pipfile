@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tqdm = "*"
+runforrest = "*"
+jbof = "*"
+numpy = "*"
+scipy = "*"
+pdas = {path = "./PDAs-0.0.1-py3-none-any.whl"}
+pandas = "*"
+
+[requires]
+python_version = "3.6"
