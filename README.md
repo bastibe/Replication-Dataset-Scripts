@@ -1,3 +1,7 @@
+This is part of the dissertation [Pitch of Voiced Speech in the Short-Time Fourier Transform: Algorithms, Ground Truths, and Evaluation Methods](https://bastibe.github.io/Dissertation-Website/)  
+(Preprint Manuscript)  
+© 2020, Bastian Bechtold. All rights reserved.
+
 # Pitch Estimation Experiments
 
 This directory contains programs that calculate pitch tracks for combinations of speech signals and noise signals.
