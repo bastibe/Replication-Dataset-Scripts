@@ -1,8 +1,10 @@
 This is part of the dissertation [Pitch of Voiced Speech in the Short-Time Fourier Transform: Algorithms, Ground Truths, and Evaluation Methods](https://bastibe.github.io/Dissertation-Website/)  
-(Preprint Manuscript)  
-© 2020, Bastian Bechtold. All rights reserved.
+(Preprint Manuscript) on the topic of [A Replication Dataset for Fundamental Frequency Estimation](https://bastibe.github.io/Dissertation-Website/replication-dataset/index.html)  
+© 2020, Bastian Bechtold, Jade Hochschule & Carl von Ossietzky Universität Oldenburg, Germany.
 
 # Pitch Estimation Experiments
+
+![GitHub](https://img.shields.io/github/license/bastibe/Replication-Dataset-Scripts)
 
 This directory contains programs that calculate pitch tracks for combinations of speech signals and noise signals.
 
@@ -69,6 +71,8 @@ The `PDAs` module includes the following fundamental frequency estimation algori
 - [YIN](http://audition.ens.fr/adc/) [30]
 
 These algorithms are included in their native programming language (Matlab for BANA, DNN, MBSC, NLS, NLS2, PEFAC, RAPT, RNN, SACC, SHR, SRH, STRAIGHT, SWIPE, YAAPT, and YIN; C for KALDI, PRAAT, and SAFE; Python for AMDF, AUTOC, CEP, CREPE, MAPS, and SIFT), and adapted to a common Python interface. AMDF, AUTOC, CEP, and SIFT are our partial re-implementations as no original source code could be found.
+
+All source code in this repository is licensed under the terms of the GPLv3 license.
 
 ## References:
 
