@@ -26,7 +26,7 @@ Noise signals are taken from the corpora:
 
 (License texts are included in the corpus files)
 
-These corpora (except for TIMIT) can either be downloaded by running the shell scripts of the same name (i.e. *fda.sh* for downloading the FDA corpus), and then assembling them into a [JBOF](https://jbof.readthedocs.io/en/latest/) dataset using the python script of the same name (i.e. *fda.py* for the FDA corpus), or by downloading the fully assembled [JBOF](https://jbof.readthedocs.io/en/latest/) dataset from [Zenodo](https://zenodo.org/record/3921794) and unzipping them in this directory.
+These corpora (except for TIMIT) can either be downloaded by running the shell scripts of the same name (i.e. *fda.sh* for downloading the FDA corpus), and then assembling them into a [JBOF](https://jbof.readthedocs.io/en/latest/) dataset using the python script of the same name (i.e. *fda.py* for the FDA corpus), or by downloading the fully assembled [JBOF](https://jbof.readthedocs.io/en/latest/) dataset from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3921794.svg)](https://doi.org/10.5281/zenodo.3921794) and unzipping them in this directory.
 
 The KEELE_mod corpus is a modified version of the KEELE corpus, where recordings are cut into shorter pieces much like in all the other speech corpora.
 
@@ -39,7 +39,7 @@ The TIMIT corpus can not be provided as a download, as it is not made available 
 
 These experiments take about one year to compute on a 2019 single-core CPU (less on more cores). Their results are collected as a JBOF Dataframe in a "data" directory, and all intermediate tasks and return values are collected in a "experiment" directory.
 
-To run these scripts, the `PDAs` python module needs to be installed. A linux64/Python3.6+ version of this module is available from [Zenodo](https://zenodo.org/record/3921794) as well (requires Matlab and the Curve Fitting Toolbox, Deep Learning Toolbox, Image Processing Toolbox, Parallel Computing Toolbox, Signal Processing Toolbox, Statistics and Machine Learning Toolbox, Symbolic Math Toolbox).
+To run these scripts, the `PDAs` python module needs to be installed. A linux64/Python3.6+ version of this module is available from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3921794.svg)](https://doi.org/10.5281/zenodo.3921794) as well (requires Matlab and the Curve Fitting Toolbox, Deep Learning Toolbox, Image Processing Toolbox, Parallel Computing Toolbox, Signal Processing Toolbox, Statistics and Machine Learning Toolbox, Symbolic Math Toolbox).
 
 The `PDAs` module includes the following fundamental frequency estimation algorithms:
 
