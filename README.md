@@ -1,5 +1,5 @@
 This is part of the dissertation [Pitch of Voiced Speech in the Short-Time Fourier Transform: Algorithms, Ground Truths, and Evaluation Methods](https://bastibe.github.io/Dissertation-Website/)  
-(Preprint Manuscript) on the topic of [A Replication Dataset for Fundamental Frequency Estimation](https://bastibe.github.io/Dissertation-Website/replication-dataset/index.html)  
+(Accepted Dissertation) on the topic of [A Replication Dataset for Fundamental Frequency Estimation](https://bastibe.github.io/Dissertation-Website/replication-dataset/index.html)  
 © 2020, Bastian Bechtold, Jade Hochschule & Carl von Ossietzky Universität Oldenburg, Germany.
 
 # Pitch Estimation Experiments
